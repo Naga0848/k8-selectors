@@ -1,0 +1,1 @@
+# This repo contains all the details about NodeSelectors, Taints and Tolerations, Affinity and Anti-Affinity
