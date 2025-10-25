@@ -1,9 +1,9 @@
-##### This repo contains all the details about topics like 
+#### This repo contains all the details about topics like 
     NodeSelectors, 
     Taints and Tolerations, 
     Affinity and Anti-Affinity
 
-##### In order to use  NodeSelectors, Taints and Tolerations, Node Affinity & Anti-Affinity  and Pod Affinity &  Anti-Affinitywe need to first apply labels on the desired node
+#### In order to use  NodeSelectors, Taints and Tolerations, Node Affinity & Anti-Affinity  and Pod Affinity &  Anti-Affinitywe need to first apply labels on the desired node
         First we should add labels to the node >>> kubectl label nodes <node-ip-address> hardware=gpu
         here key=hardware and value=gpu
         After adding these kind of kabels, we can proceed with the NodeSelectors, Taints and Tolerations, Affinity and Anti-Affinity rules
